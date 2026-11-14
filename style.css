@@ -1,0 +1,341 @@
+*{
+    padding: 0px ;
+    margin: 0px;
+    box-sizing: border-box;}
+
+.figuritas{
+    height: 300px;
+    width: 225px;
+    border: 4px solid;
+}
+.camisetas{
+    height: 300px;
+    width: 300px;
+  
+}
+.camisetas:hover{
+     transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+
+}
+#seccioncamisetas{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    padding-top: 150px;
+    
+}
+    .figuritas:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+
+}
+#figu{
+    text-align: center;
+
+}
+.arquero{
+ display: grid;
+   grid-template-columns: repeat(3,1fr);
+   justify-items: center;
+   gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.defensas-1{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-items: center;
+   gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.defensas-2{
+ display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-items: center;
+   gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.mediocampistas-1{
+ display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-items: center;
+   gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.mediocampistas-2{
+     display: grid;
+   grid-template-columns: repeat(3,1fr);
+   justify-items: center;
+   gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.delanteros-1{
+     display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-items: center;
+   gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.delanteros-2{
+     display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-items: center;
+   gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+
+.bandera{
+    height: 450px;
+    width: 100%;
+    text-align: center;
+
+    
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.carousel-item{
+
+padding: 12px;
+}
+#carouselMultiple{
+    margin: 0 auto;
+    height: 450px;
+    width: auto ;
+}
+
+.equipo{
+    width: 400px;
+    height: 280px;
+}
+
+.dt{
+    height: 300px;
+    width: 300px;
+   border-radius: 50%;
+
+   right: 2px;
+   padding-top: 10px;
+}
+
+.dt3{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.p-dt{
+    height: 40px;
+    width: 850px;
+    align-items: center;
+    align-content: center;
+}
+.tabla{
+    text-align: center;
+    align-items: center;
+}
+.calendario{
+    height: 500px;
+    width: 100%;
+  padding-top: 60px;
+}
+#Calendario{
+    text-align: center;
+}
+
+.redes{
+    width:35px ;
+    height: 35px;
+}
+h3{
+    font-size: 30px;
+    text-align: left;
+}
+p{
+    font-size: 20px;
+}
+h4{
+    font-size:25px ;
+}
+.curiosidades2{
+    text-align: left;
+     padding-top: 40px;
+}
+.redessociales{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.menuprincipal{
+font-size: 20px;
+text-align: center;
+background-color: rgb(129, 20, 20);
+  font-family: "Raleway", sans-serif;
+   position: sticky;
+   top: 0;
+   padding-bottom: 10px;
+z-index: 1000;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+body{
+background-color: white;
+}
+main{
+
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+color: black;
+  font-weight: 400;
+  font-style: normal;
+  padding: 55px;
+}
+
+header{
+ background-color: rgb(252, 239, 168);
+    text-align: center;
+}
+
+.viole{
+   font-size: 22px;
+   padding: 20px;
+}
+p{
+    font-size: 22px;
+}
+footer{
+    background-color: rgb(129, 20, 20);
+    padding-bottom: 30px;
+    padding-top: 10px;
+    color: black;
+}
+.footer{
+    padding: 10px;
+}
+.redes:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+}
+.posicion{
+    background-color: rgb(89, 11, 11);
+    color: white;
+}
+.texto-historia{
+    padding-top: 10px;
+}
+.camisetap{
+    padding-top: 10px;
+}
+nav{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+@media (max-width:450px){
+.bandera{
+    height: 120px;
+    width: 330px;
+    text-align: center;
+}
+
+.menuprincipal{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 330px;
+}
+
+main{
+    padding: 30px;
+    font-weight:  150px;
+    font-size: 150px;
+}
+.equipo{
+height: auto;
+width: 80%;
+padding: 5px;
+}
+a{
+    padding: 2px;
+}
+nav{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.figuritas{
+    height: 100px;
+    width: 80px;
+}
+.arquero{
+ display: grid;
+   grid-template-columns: repeat(3,1fr);
+   justify-items: center;
+   
+ 
+}
+.defensas-1{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-items: center;
+   gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.defensas-2{
+ display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-items: center;
+   gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.mediocampistas-1{
+ display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-items: center;
+   gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.mediocampistas-2{
+     display: grid;
+   grid-template-columns: repeat(3,1fr);
+   justify-items: center;
+   gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.delanteros-1{
+     display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-items: center;
+   gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.delanteros-2{
+     display: grid;
+   grid-template-columns: repeat(4,1fr);
+   justify-items: center;
+   gap: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+}
